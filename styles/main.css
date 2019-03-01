@@ -1,0 +1,78 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center; /*Отцентровать по вертикали*/
+    justify-content: space-between; /*Пробел между элементами*/
+    width: 1024px; /*Макосимальная ширина родителького блока*/
+    margin: auto; /*Центрование поцентру*/
+    padding-top: 21px;
+    padding-bottom: 28px;
+}
+
+.logo__name {
+    font-family: 'Nunito', sans-serif;
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #6d6e70;
+    font-weight: bold;
+}
+
+a.nav__link {
+    font-family: 'Nunito', sans-serif;
+    margin-right: 29px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+}
+
+.main__button {
+    padding: 14px 30px;
+    border-radius: 25px;
+    color: white;
+    background-color: #bcda5c;
+    border: none;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
+.content {
+    background-image: url(../images/mainimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 169px;
+    padding-bottom: 166px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 49px;
+    margin-bottom: 59px;
+}
+
+.title__light {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.member {
+    text-align: center;
+}
+
+.member button {
+    border: none;
+    color: white;
+    background-color: #99c50a;
+    padding: 25px 40px;
+    border-radius: 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
