@@ -1,46 +1,48 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.wrapper {
+     width: 1024px;
+     margin: auto;
+}
+
 .header {
     display: flex;
     align-items: center; /*Отцентровать по вертикали*/
     justify-content: space-between; /*Пробел между элементами*/
-    width: 1024px; /*Макосимальная ширина родителького блока*/
+    width: 1024px; /*Максимальная ширина родителького блока*/
     margin: auto; /*Центрование поцентру*/
     padding-top: 21px;
     padding-bottom: 28px;
 }
 
-.logo__name {
+.header__logo-name {
     font-family: 'Nunito', sans-serif;
     font-size: 31px;
-    text-transform: uppercase;
     color: #6d6e70;
     font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
 }
 
-a.nav__link {
+a.header__nav-link {
     font-family: 'Nunito', sans-serif;
-    margin-right: 29px;
     font-size: 13px;
+    font-weight: 600;
+    color: #a2a2a2;
     text-decoration: none;
-    color: #666666;
-    font-weight: bold;
+    margin-right: 29px;
 }
 
-.main__button {
+.header__button {
     font-size: 13px;
+    color: white;
+    background-color: #bcda5c;
+    text-transform: uppercase;
+    border: none;
     padding: 14px 33px;
     border-radius: 25px;
-    color: #f2f8e0;
-    background-color: #bcda5c;
-    border: none;
-    text-transform: uppercase;
-}
-
-.wrapper {
-    width: 1024px;
-    margin: auto;
 }
 
 .content {
@@ -48,7 +50,8 @@ a.nav__link {
     background-repeat: no-repeat; /*Нужен ли он здесь*/
     background-size: cover;
     padding-top: 169px;
-    padding-bottom: 166px;
+    padding-bottom: 167px;
+    margin-bottom: 99px;
 }
 
 h1 {
@@ -78,22 +81,39 @@ h1 {
     font-weight: 600;
 }
 
-.main {
-
+.wrapper {
+    width: 1024px;
+    margin: auto;
 }
 
-.section__logo2 {
+.work {
+    margin-bottom: 161px;
+    text-align: center;
+}
 
+.work__logo {
+    margin-bottom: 52px;
 }
 
 h2 {
-
+    font-size: 31px;
+    color: #515151;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin-bottom: 70px;
 }
 
-.section__content {
-
+.work__cont {
+    font-size: 19px;
+    color: #999999;
+    line-height: 33px;
 }
 
-.section__content2 {
+.work__content {
+    margin-bottom: 52px;
+}
+
+.work__content2 {
 
 }
